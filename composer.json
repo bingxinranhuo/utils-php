@@ -1,0 +1,25 @@
+{
+  "name": "php/utils",
+  "version": "1.0.0",
+  "description": "base service",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "fmansd",
+      "email": "fman"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Php\\Utils\\Request\\": "request/",
+      "Php\\Utils\\Log\\": "log/",
+      "Php\\Utils\\Crypt\\": "crypt/",
+      "Php\\Utils\\File\\": "file/",
+      "Php\\Utils\\ThirdLib\\": "thirdLib/",
+      "Php\\Utils\\PhpBaseController\\": "./"
+    }
+  },
+  "require": {
+    "ramsey/uuid": "^2.8.2"
+  }
+}
