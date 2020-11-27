@@ -4,7 +4,7 @@ namespace Php\Utils\Crypt;
 
 /**
  * 加解密
- * @author fman
+ * @author jianglai
  * @date   2018/8/31 18:52
  */
 class Crypt
@@ -26,7 +26,7 @@ class Crypt
      * 加密
      * @param string $data 需要加密的数据
      * @return string
-     * @author fman
+     * @author jianglai
      * @date   2018/8/2 11:50
      */
     public static function encrypt($str)
@@ -39,7 +39,7 @@ class Crypt
      * 解密
      * @param string $str 待解密数据
      * @return string
-     * @author fman
+     * @author jianglai
      * @date   2018/8/2 12:00
      */
     public static function decrypt($str)
@@ -52,7 +52,7 @@ class Crypt
      * base64 转url
      * @param $string
      * @return mixed|string
-     * @author fman
+     * @author jianglai
      * @date   2018/8/2 13:48
      */
     private static function base64ToUrl($string)
@@ -66,7 +66,7 @@ class Crypt
      * url 转base64
      * @param $string
      * @return bool|string
-     * @author fman
+     * @author jianglai
      * @date   2018/8/2 14:08
      */
     private static function urlToBase64($string)
@@ -84,7 +84,7 @@ class Crypt
      * @param array $data 需要加密的数据
      * @param bool   $mode true 返回:[原数据=>加密结果],fasle只返回加密结果[加密结果]
      * @return array
-     * @author fman
+     * @author jianglai
      * @date   2018/8/2 14:10
      */
     public static function encryptBatch($data, $mode = false)
@@ -105,7 +105,7 @@ class Crypt
      * @param array $data 需要加密的数据
      * @param bool   $mode true 返回:[加密=>解密结果],false[解密结果]
      * @return array
-     * @author fman
+     * @author jianglai
      * @date   2018/8/2 14:12
      */
     public static function decryptBatch($data, $mode = false)

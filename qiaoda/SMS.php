@@ -1,13 +1,8 @@
 <?php
 
-namespace Php\Utils\Qiaoda;
+namespace Php\Utils;
 
-/**
- * 使用巧达短信平台发短信
- * Copyright (C) qq.com 2018 All rights reserved
- * @author fmansd
- * @date   2018/8/31 19:19
- */
+
 use Php\Utils\Request\Curl;
 class SMS
 {

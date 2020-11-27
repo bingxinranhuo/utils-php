@@ -10,7 +10,7 @@ if (!function_exists('posix_getpid')) {
 }
 
 /**
- * @Author: fmansd
+ * @Author: jianglai
  * @Date:   2018-09-28
  * File name: Log.php
  * Class name: 日志记录类

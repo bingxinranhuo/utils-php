@@ -2,7 +2,7 @@
 namespace  Php\Utils\ThirdLib;
 /**
  * 数美滑动验证码类
- * @author: fman <fman@qq.com>
+ * @author: jianglai <jianglai>
  * @date: 2018/8/22 17:15
  */
 use Php\Utils\Request\Curl;
@@ -39,7 +39,7 @@ class IshumeiSverify
      * @param string $tokenId 设置用户账号tokenId, 由客户提供 id
      * @param string $deviceId 设置deviceId, 由客户提供 数美设备指纹标识，由于用户行为分析
      * @return array
-     * @author: fman <fman@qq.com>
+     * @author: jianglai <jianglai>
      * @date: 2018/8/22 17:15
      */
     public function verify($rid, $ip, $tokenId = '', $deviceId = '')

@@ -1,7 +1,7 @@
 <?php
 /**
  *Copyright (C) qq.com 2018 All rights reserved
- * @author fmansd
+ * @author jianglai
  * @date   2018/9/28 14:54
  */
 
@@ -49,7 +49,7 @@ LtQk0UF3V4abbolDZQIDAQAB
     /**
      * 获取私钥
      * @return bool|resource
-     * @author fman
+     * @author jianglai
      * @date   2018/9/28 14:56
      */
     private static function getPrivateKey()
@@ -61,7 +61,7 @@ LtQk0UF3V4abbolDZQIDAQAB
     /**
      * 获取公钥
      * @return resource
-     * @author fman
+     * @author jianglai
      * @date   2018/9/28 16:11
      */
     private static function getPublicKey()
@@ -74,7 +74,7 @@ LtQk0UF3V4abbolDZQIDAQAB
      * 公钥加密
      * @param string $data
      * @return null|string
-     * @author fman
+     * @author jianglai
      * @date   2018/9/28 14:58
      */
     public static function publicEncrypt($data = '')
@@ -95,7 +95,7 @@ LtQk0UF3V4abbolDZQIDAQAB
      * 私钥解密
      * @param string $encrypted
      * @return null
-     * @author fman
+     * @author jianglai
      * @date   2018/9/28 14:58
      */
     public static function privateDecrypt($encrypted = '')
@@ -117,7 +117,7 @@ LtQk0UF3V4abbolDZQIDAQAB
      * 私钥加密
      * @param string $data
      * @return null|string
-     * @author fman
+     * @author jianglai
      * @date   2018/9/28 14:56
      */
     public static function privateEncrypt($data = '')
@@ -138,7 +138,7 @@ LtQk0UF3V4abbolDZQIDAQAB
      * 公钥解密
      * @param string $encrypted
      * @return null
-     * @author fman
+     * @author jianglai
      * @date   2018/9/28 14:59
      */
     public static function publicDecrypt($encrypted = '')

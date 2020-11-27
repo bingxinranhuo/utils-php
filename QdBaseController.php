@@ -3,7 +3,7 @@
 namespace Php\Utils\PhpBaseController;
 /**
  * 基类控制器
- * @author <fman@qq.com>
+ * @author <jianglai>
  * @date   2018-08-17 11:01
  * 入库文件要定义日志存储常量 LOG_PATH
  */

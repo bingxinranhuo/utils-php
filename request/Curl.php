@@ -2,7 +2,7 @@
 namespace Php\Utils\Request;
 
 /**
- * @Author: fmansd
+ * @Author: jianglai
  * @Date:   2018-09-28
  * 当获取结果失败 比如超时 或者对方接口报错 返回false 获取错误信息:Crul::$errorMsg
  */
@@ -28,7 +28,7 @@ class Curl
      * @param null $headers
      * @param null $dataFormat 格式化数据 ARRAY jSON
      * @return bool|string
-     * @author fmansd@qq.com
+     * @author jianglai
      * @date   2018/9/28 18:44
      */
     public static function get($url, $headers = null, $dataFormat = '', $timeOutMs = 0)
@@ -54,7 +54,7 @@ class Curl
      * @param      $data
      * @param null $headers
      * @return bool|string
-     * @author fmansd@qq.com
+     * @author jianglai
      * @date   2018/9/28 18:44
      */
     public static function post($url, $data, $headers = null, $dataFormat = '',$timeOutMs = 0)
@@ -225,7 +225,7 @@ class Curl
 
     /**
      * 获取返回内容
-     * @author fman
+     * @author jianglai
      * @date   2018/9/30 11:31
      */
     public static function getResponseBody()
@@ -235,7 +235,7 @@ class Curl
 
     /**
      * 获取相应头
-     * @author fman
+     * @author jianglai
      * @date   2018/9/30 11:31
      */
     public static function getResponseHeader()
@@ -245,7 +245,7 @@ class Curl
 
     /**
      * 设置返回内容
-     * @author fman
+     * @author jianglai
      * @date   2018/9/30 11:30
      */
     private static function setResponseBody($httpResponseBody)
@@ -255,7 +255,7 @@ class Curl
 
     /**
      * 设置响应头
-     * @author fman
+     * @author jianglai
      * @date   2018/9/30 11:30
      */
     private static function setResponseHeader($httpResponseHeader)

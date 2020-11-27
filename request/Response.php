@@ -10,7 +10,7 @@ class Response
      * @param $res 返回的数据
      * @param $logId 请求id
      * @param string $dataType 返回数据类型  JSON XML JSONP EVAL
-     * @author <fman@qq.com>
+     * @author <jianglai>
      * @date 2018-08-17 11:01
      */
     public static function ajaxReturn( $res = [] , $err = 0, $msg = 'success' , $logId, $dataType = 'JSON'){
@@ -23,7 +23,7 @@ class Response
      * @param string $type 返回数据类型
      * @param int $code 状态码
      * @param int $jsonOption 传递给json_encode的option参数
-     * @author <fman@qq.com>
+     * @author <jianglai>
      * @date 2018-08-17 11:01
      */
     public static function FormatData($data = [], $type = 'JSON')
@@ -69,7 +69,7 @@ class Response
      * @param string $id 数字索引子节点key转换的属性名
      * @param string $encoding 数据编码
      * @return string
-     * @author <fman@qq.com>
+     * @author <jianglai>
      * @date 2018-08-17 11:01
      */
     public static function xmlEncode($data, $root = 'think', $item = 'item', $attr = '', $id = 'id', $encoding = 'utf-8')
@@ -96,7 +96,7 @@ class Response
      * @param string $item 数字索引时的节点名称
      * @param string $id 数字索引key转换为的属性名
      * @return string
-     * @author <fman@qq.com>
+     * @author <jianglai>
      * @date 2018-08-17 11:01
      */
     public static function dataToXml($data, $item = 'item', $id = 'id')

@@ -4,7 +4,7 @@ namespace  Php\Utils\ThirdLib;
 use Php\Utils\Request\Curl;
 /**
  * SendCloud 邮件发送类
- * @author  <fman@qq.com>
+ * @author  <jianglai>
  * @date 2018-08-22 17:56
  */
 

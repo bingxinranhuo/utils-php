@@ -3,7 +3,7 @@ namespace  Php\Utils\File;
 
 /**
  * 文件类操作
- * @Author: fmansd
+ * @Author: jianglai
  * @Date:   2018-09-28
  */
 class File
@@ -60,7 +60,7 @@ class File
 
     /**
      * 创建多级目录
-     * @Author: fmansd
+     * @Author: jianglai
      * @Date:   2018-09-28
      * @return boolean
      */

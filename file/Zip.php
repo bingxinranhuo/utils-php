@@ -3,7 +3,7 @@ namespace  Php\Utils\File;
 
 /**
  * 压缩文件类
- * @Author: fmansd
+ * @Author: jianglai
  * @Date:   2018-09-28
  */
 class Zip extends \ZipArchive
@@ -13,7 +13,7 @@ class Zip extends \ZipArchive
     public $flag = self::CREATE;
     /**
      * 压缩文件下添加目录
-     * @Author: fmansd
+     * @Author: jianglai
      * @Date:   2018-10-10
      */
     public function createDir($zipFile, $newDir)
@@ -44,7 +44,7 @@ class Zip extends \ZipArchive
 
     /**
      * 压缩目录下添加文件
-     * @Author: fmansd
+     * @Author: jianglai
      * @Date:   2018-10-10
      */
     public function addZipFile($zipFile, $addFile, $rename = '')
@@ -75,7 +75,7 @@ class Zip extends \ZipArchive
 
     /**
      * 指定内容到压缩文件
-     * @Author: fmansd
+     * @Author: jianglai
      * @Date:   2018-10-10
      */
     public function addString($zipFile, $fileName, $content)
@@ -102,7 +102,7 @@ class Zip extends \ZipArchive
 
     /**
      * 遍历目录到压缩文件
-     * @Author: fmansd
+     * @Author: jianglai
      * @Date:   2018-10-10
      */
     public function addDir($zipFile, $path)
